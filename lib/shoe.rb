@@ -13,6 +13,7 @@ class Shoe
           BRANDS << brand
         end}
         count += 1
+      end
   end
 
   def cobble
