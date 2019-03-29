@@ -21,8 +21,8 @@ class Shoe
         if name != brand
           BRANDS << brand
         end}
-      
+
     end
   end
-  
+
 end
