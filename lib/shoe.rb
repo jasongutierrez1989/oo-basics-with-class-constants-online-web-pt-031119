@@ -15,6 +15,11 @@ class Shoe
 
   def brand=(brand)
     @brand = brand
-    BRANDS << brand
+    count = 0
+    while count < BRANDS.length
+      BRANDS.each {|name|
+        if name != brand
+          BRANDS << brand
+        end}
   end
 end
