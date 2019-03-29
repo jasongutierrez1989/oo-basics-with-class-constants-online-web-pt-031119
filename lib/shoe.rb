@@ -17,7 +17,7 @@ class Shoe
     @brand = brand
     count = 0
     while count < BRANDS.length
-      BRANDS.each {|name| do
+      BRANDS.each {|name|
         if name != brand
           BRANDS << brand
         end}
